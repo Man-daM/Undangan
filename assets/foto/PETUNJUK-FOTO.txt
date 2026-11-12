@@ -1,0 +1,22 @@
+PANDUAN FOLDER FOTO
+
+Folder ini memisahkan foto pengantin, foto galeri, dan foto latar tema.
+Ganti foto dengan nama file yang sama agar tidak perlu mengubah kode.
+
+PENGANTIN:
+  pengantin/mempelai-wanita.jpg
+  pengantin/mempelai-pria.jpg
+
+GALERI:
+  galeri/foto-1.jpg
+  galeri/foto-2.jpg
+  galeri/foto-3.jpg
+
+LATAR TEMA:
+  tema/cover.jpg
+  tema/background-countdown.jpg
+  tema/background-rsvp.jpg
+  tema/background-penutup.jpg
+
+Format JPG disarankan. Jika memakai PNG/WebP atau nama berbeda, ubah path di style.css.
+Semua path gambar relatif terhadap file index.html.

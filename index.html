@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f4eee5" />
+  <meta name="description" content="Undangan pernikahan digital — merayakan kisah, cinta, dan janji selamanya." />
+  <title>Undangan Pernikahan | Alya & Raka</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="paper-grain"></div>
+  <header class="hero" id="home">
+    <div class="hero-shade"></div>
+    <nav class="top-nav"><a href="#home" class="brand">A <span>&</span> R</a><a href="#details" class="nav-link">Detail Acara</a></nav>
+    <div class="hero-content">
+      <p class="eyebrow light">THE WEDDING OF</p>
+      <h1><span data-bride>Alya</span> <i>&</i> <span data-groom>Raka</span></h1>
+      <div class="ornament light-ornament"><span></span> ❧ <span></span></div>
+      <p class="hero-date" data-date-label>Sabtu, 20 Desember 2026</p>
+      <p class="hero-note">Dengan penuh sukacita, kami mengundang Anda<br>untuk menjadi bagian dari hari bahagia kami.</p>
+      <button class="button button-light" id="openInvitation">Buka Undangan <span>↗</span></button>
+    </div>
+    <div class="hero-bottom">A CELEBRATION OF LOVE · 2026</div>
+  </header>
+
+  <main id="invitation" class="invitation hidden">
+    <section class="intro section-wrap">
+      <p class="eyebrow">WITH LOVE AND BLESSINGS</p>
+      <div class="ornament"><span></span> ❧ <span></span></div>
+      <p class="intro-quote">“Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan hidup dari jenismu sendiri...”</p>
+      <p class="quote-source">— QS. Ar-Rum: 21</p>
+      <p class="intro-copy">Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan pernikahan putra-putri kami:</p>
+    </section>
+
+    <section class="couple section-wrap">
+      <article class="person">
+        <div class="portrait portrait-bride"></div>
+        <p class="person-role">THE BRIDE</p>
+        <h2 data-bride>Alya Putri</h2>
+        <p class="person-family">Putri dari<br>Bapak Nama Ayah & Ibu Nama Ibu</p>
+      </article>
+      <div class="ampersand">&</div>
+      <article class="person">
+        <div class="portrait portrait-groom"></div>
+        <p class="person-role">THE GROOM</p>
+        <h2 data-groom>Raka Pratama</h2>
+        <p class="person-family">Putra dari<br>Bapak Nama Ayah & Ibu Nama Ibu</p>
+      </article>
+    </section>
+
+    <section class="date-banner">
+      <div class="date-inner">
+        <p class="eyebrow light">SAVE THE DATE</p>
+        <h2 data-date-label>Sabtu, 20 Desember 2026</h2>
+        <div id="countdown" class="countdown">
+          <div><strong id="days">00</strong><span>HARI</span></div>
+          <div><strong id="hours">00</strong><span>JAM</span></div>
+          <div><strong id="minutes">00</strong><span>MENIT</span></div>
+          <div><strong id="seconds">00</strong><span>DETIK</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="events section-wrap" id="details">
+      <p class="eyebrow">JOIN OUR SPECIAL DAY</p>
+      <h2 class="section-title">Rangkaian Acara</h2>
+      <div class="event-grid">
+        <article class="event-card">
+          <span class="event-flower">✿</span><p class="event-label">THE CEREMONY</p>
+          <h3>Akad Nikah</h3><div class="event-rule"></div>
+          <p class="event-date" data-date-label>Sabtu, 20 Desember 2026</p>
+          <p class="event-time">08.00 – 10.00 WIB</p>
+          <p class="event-place">Nama Gedung / Tempat Acara<br>Alamat lengkap lokasi acara</p>
+          <a class="text-link" data-map-link href="https://maps.google.com" target="_blank" rel="noopener">Lihat Lokasi ↗</a>
+        </article>
+        <article class="event-card">
+          <span class="event-flower">✿</span><p class="event-label">THE CELEBRATION</p>
+          <h3>Resepsi</h3><div class="event-rule"></div>
+          <p class="event-date" data-date-label>Sabtu, 20 Desember 2026</p>
+          <p class="event-time">11.00 – 14.00 WIB</p>
+          <p class="event-place">Nama Gedung / Tempat Acara<br>Alamat lengkap lokasi acara</p>
+          <a class="text-link" data-map-link href="https://maps.google.com" target="_blank" rel="noopener">Lihat Lokasi ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery section-wrap">
+      <p class="eyebrow">A LITTLE PIECE OF OUR STORY</p>
+      <h2 class="section-title">Our Moments</h2>
+      <p class="section-subtitle">Setiap cerita punya awal yang indah. Ini adalah beberapa potongan cerita kami.</p>
+      <div class="gallery-grid">
+        <div class="gallery-photo photo-one"></div>
+        <div class="gallery-photo photo-two"></div>
+        <div class="gallery-photo photo-three"></div>
+      </div>
+    </section>
+
+
+    <section class="gift-section section-wrap" id="gift">
+      <p class="eyebrow">A LITTLE TOKEN OF LOVE</p>
+      <h2 class="section-title">Hadiah Pernikahan</h2>
+      <p class="section-subtitle">Doa restu Anda merupakan hadiah terindah bagi kami. Namun, jika Anda ingin berbagi tanda kasih, dapat melalui rekening berikut.</p>
+      <div class="bank-cards">
+        <article class="bank-card">
+          <div class="bank-card-top">
+            <span class="bank-label">BANK TRANSFER</span>
+            <span class="bank-mark">♡</span>
+          </div>
+          <p class="bank-name" data-bank-name>Nama Bank</p>
+          <p class="account-number" data-account-number>0000000000</p>
+          <p class="account-owner">a.n. <span data-account-owner>Nama Pemilik Rekening</span></p>
+          <button class="copy-account" type="button" data-copy-account="0000000000">Salin Nomor Rekening ↗</button>
+        </article>
+        <p class="gift-note">Terima kasih atas kasih sayang dan perhatian yang diberikan kepada kami.</p>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="closing-content">
+        <p class="eyebrow light">A FOREVER KIND OF LOVE</p>
+        <h2>Merupakan kebahagiaan bagi kami apabila Anda berkenan hadir dan memberikan doa restu.</h2>
+        <div class="ornament light-ornament"><span></span> ❧ <span></span></div>
+        <p class="closing-names"><span data-bride>Alya</span> <i>&</i> <span data-groom>Raka</span></p>
+        <p class="closing-thanks">Terima kasih</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">MADE WITH LOVE · <span data-bride>Alya</span> & <span data-groom>Raka</span></footer>
+  <audio id="backgroundMusic" loop preload="none"></audio>
+  <button id="musicToggle" class="music-toggle hidden" aria-label="Putar musik">♫</button>
+  <script src="script.js"></script>
+</body>
+</html>
